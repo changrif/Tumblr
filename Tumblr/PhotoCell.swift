@@ -17,6 +17,7 @@ class PhotoCell: UITableViewCell {
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
+        userLabel.sizeToFit()
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
